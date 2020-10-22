@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+    anaconda:
+        container_name: 'anaconda'
+        build: .
+        ports: 
+            - '8888:8888'
+        tty: true
+        volumes:
+            - '/c/kussy-lab/python:/work'

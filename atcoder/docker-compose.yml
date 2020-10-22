@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+    atcoder:
+        container_name: atcoder
+        build: .
+        tty: true
+        volumes: 
+            - /c/atcoder:/work
