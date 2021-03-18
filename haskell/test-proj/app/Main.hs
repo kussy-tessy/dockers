@@ -1,6 +1,7 @@
 module Main where
 
 import Lib
+import BTree
 
 main :: IO ()
-main = someFunc
+main = bTreeTestFunc

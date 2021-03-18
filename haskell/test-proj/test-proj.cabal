@@ -30,6 +30,7 @@ library
       Lib
       Shapes
       Records
+      BTree
   other-modules:
       Paths_test_proj
   hs-source-dirs:
