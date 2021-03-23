@@ -31,6 +31,9 @@ library
       Shapes
       Records
       BTree
+      YesNo
+      Functor
+      IO
   other-modules:
       Paths_test_proj
   hs-source-dirs:

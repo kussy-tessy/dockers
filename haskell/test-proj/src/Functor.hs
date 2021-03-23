@@ -1,5 +1,5 @@
-module BTree
-    ( bTreeTestFunc
+module Functor
+    ( functorFunc
     ) where
 
 -- 木とは、空の木、もしくはNodeと左側と右側にそれぞれ木を持つものである
@@ -19,9 +19,9 @@ treeInsert x (Node a left right)
     | x < a  = Node a (treeInsert x left) right -- 挿入したい値が根より小さければ、左の木に挿入してできた部分木と右の木からなる木を返す
     | x > a  = Node a left (treeInsert x right) -- その逆
 
-bTreeTestFunc :: IO ()
+functorFunc :: IO ()
 
-bTreeTestFunc = do
+functorFunc = do
     let nums = [8, 6, 4, 1, 7, 3, 5]
     -- foldr 関数 初期値(アキュムレータ) 値(適用対象)
     -- let numsTree = foldl (\acc x -> treeInsert x acc) EmptyTree nums
