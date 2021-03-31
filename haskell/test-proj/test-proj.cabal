@@ -34,12 +34,13 @@ library
       YesNo
       Functor
       IO
+      AskForNumber
   other-modules:
       Paths_test_proj
   hs-source-dirs:
       src
   build-depends:
-      base >=4.7 && <5, containers
+      base >=4.7 && <5, containers,  random
   default-language: Haskell2010
 
 executable test-proj-exe

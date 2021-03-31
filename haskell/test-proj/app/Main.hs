@@ -1,9 +1,6 @@
 module Main where
 
-import Lib
-import BTree
-import YesNo
-import IO
+import AskForNumber
 
 main :: IO ()
-main = ioFunc
+main = callAskForNumber
